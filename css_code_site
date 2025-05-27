@@ -1,0 +1,123 @@
+/* Ообнуление стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Шапка */
+.header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header_title {
+    font-size: 32px;
+}
+
+/* Навигация */
+.nav_list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.nav_link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+}
+
+/* Основной контент */
+.main {
+    padding: 30px 20px;
+}
+
+/* Секции */
+.section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+}
+
+.section_title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section_text,
+.section_list {
+    font-size: 18px;
+}
+
+/* Подвал */
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+@media (max-widht: 768px) {
+    .nav-list {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+
+.header-title {
+    font-size: 24px;
+ }
+
+.section {
+    padding: 15px;
+ } 
+
+.section-title {
+    font-size: 20px;
+ }
+
+.section-text,
+.section-list {
+    font-size: 16px;
+ } 
+
+.footer {
+    font-size: 14px;
+    padding: 10px;
+ }
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* плавный переход */
+}
+
+.btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
