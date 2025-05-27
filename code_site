@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="header">
+        <h1 class="header_title">Добро пожаловать!</h1>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li><a href="#about" class="nav_link">О нас</a></li>
+                <li><a href="#services" class="nav_link">Услуга</a></li>
+                <li><a href="#contact" class="nav_link">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section sectiom--about" id="about">
+            <h2 class="section_title">О нас</h2>
+            <p class="section_text">Мы создаем красивые сайты.</p>
+        </section>
+
+        <section class="section section--services" id="services">
+            <h2 class="section_title">Наши услуги</h2>
+            <ul class="section_list">
+                <li>Веб-дизайн</li>
+                <li>Разработка</li>
+                <li>Продвижение</li>
+            </ul>
+            <button class="btn">Нажми</button>
+        </section>
+    </main> 
+
+    <footer class="footer">
+        <p class="footer_text">© 2025 Мой сайт. Все права защищены.</p>
+    </footer>
+    </body>
+</html>
